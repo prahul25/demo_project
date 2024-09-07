@@ -27,7 +27,7 @@ const quizQuestions = [
     correctAnswer: "Javascript extension"
   }
 ];
-function Home() {
+function Quiz() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState('');
@@ -127,4 +127,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Quiz;
